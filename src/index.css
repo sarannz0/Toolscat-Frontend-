@@ -1,0 +1,29 @@
+:root {
+    --c1: #2563eb;      
+    --c2: #7c3aed;    
+    --c3: #16a34a;    
+    --c4: #f59e0b;     
+    --c5: #dc2626;      
+    --c6: #0ea5e9;         
+    --c7: #0f172a;         
+    --c8: #64748b;        
+    --c9: #f1f5f9;   
+    --fb: font-family: 'Inter', sans-serif;    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit; /* hereda la fuente del texto */
+    color: inherit; /* hereda color */
+    cursor: pointer;
+    outline: none; /* quitar el borde de foco, opcional, pero cuidado con accesibilidad */
+  }
+  
