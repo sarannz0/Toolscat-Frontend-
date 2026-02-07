@@ -1,0 +1,149 @@
+.admin_editar_danio_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.842);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.admin_editar_danio_modal {
+  width: 305.55px;
+  background: #ffffff;
+  border-radius: 13px;
+  padding: 28px 24px 24px;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Cerrar */
+.admin_editar_danio_close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f8cfcf;
+  border: 4px solid #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Header */
+.admin_editar_danio_header {
+  text-align: center;
+}
+
+.admin_editar_danio_title {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+
+}
+
+.admin_editar_danio_sub {
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  color: #9ca3af;
+  margin-top: 8px;
+}
+
+/* Separador */
+.admin_editar_danio_separator {
+  border-top: 1px dashed #e5e7eb;
+  margin: 20px 0;
+}
+
+/* Info */
+.admin_editar_danio_info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin_editar_danio_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin_editar_danio_label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+}
+
+/* Input */
+.admin_editar_danio_input {
+  width: 120px;
+  border: none;
+  background: transparent;
+  font-size: 10px;
+  color: #9ca3af;
+  text-align: right;
+  outline: none;
+}
+
+/* Textarea */
+.admin_editar_danio_textarea {
+  width: 100%;
+  height: 70px;
+  resize: none;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 8px;
+  font-size: 10px;
+  outline: none;
+}
+
+/* Estado */
+.admin_editar_danio_estado {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.admin_editar_danio_estado_btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admin_editar_danio_estado_btn_active {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+/* Acciones */
+.admin_editar_danio_actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin_editar_danio_action_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 35.81px;
+  border-radius: 6px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}

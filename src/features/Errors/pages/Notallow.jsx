@@ -1,6 +1,6 @@
 import '../styles/Notallow.css'
 
-
+import OpenSuccess from '../../../ComponReactivos/OpenSuccess'
 function Notallow() {
 
   return (
@@ -15,9 +15,12 @@ function Notallow() {
             <div className="notallow_text">
                 <p>Página no encontrada</p>
             </div>
+
             <div className="notallow_button">
                 <p>Volver</p>
+                
             </div>
+
         </div>
     </main>
   )

@@ -1,0 +1,159 @@
+.admin_alquiler_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.842);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.admin_alquiler_modal {
+  width: 305.55px;
+  background: #ffffff;
+  border-radius: 13px;
+  padding: 28px 24px 24px;
+  position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Cerrar */
+.admin_alquiler_close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f8cfcf;
+  border: 4px solid #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Header */
+.admin_alquiler_header {
+  text-align: center;
+}
+
+.admin_alquiler_title {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.admin_alquiler_id {
+  font-size: 8px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+/* Separador */
+.admin_alquiler_separator {
+  border-top: 1px dashed #e5e7eb;
+  margin: 20px 0;
+}
+
+/* Info */
+.admin_alquiler_info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin_alquiler_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin_alquiler_label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+}
+
+.admin_alquiler_value {
+  font-size: 10px;
+  color: #9ca3af;
+}
+
+/* Badge */
+.admin_alquiler_badge {
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.admin_alquiler_badge_danio {
+  background: #fbcfe8;
+  color: #9d174d;
+}
+
+/* Total */
+.admin_alquiler_total {
+  font-size: 10px;
+  font-weight: 800;
+}
+
+/* Estado */
+.admin_alquiler_estado {
+  margin-top: 22px;
+  text-align: center;
+}
+
+.admin_alquiler_estado_title {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.admin_alquiler_estado_buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.admin_alquiler_estado_btn {
+  padding: 8px 16px;
+  height: 16px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admin_alquiler_estado_btn_active {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+/* Acciones */
+.admin_alquiler_actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin_alquiler_action_btn {
+  width: 100%;
+  height: 28.81px;
+  border-radius: 6px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
