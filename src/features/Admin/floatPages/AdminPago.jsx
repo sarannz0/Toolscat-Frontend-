@@ -1,6 +1,10 @@
 import "../floatStyles/AdminPago.css";
 
 function AdminPago() {
+
+  
+
+  
   return (
     <div className="admin_pago_overlay">
       <div className="admin_pago_modal">

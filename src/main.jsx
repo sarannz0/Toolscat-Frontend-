@@ -23,9 +23,9 @@ import AdminEditarDaño from './features/Admin/floatPages/AdminEditarDaño.jsx'
 
 /*Proveedor Components Flotantes*/ 
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-
+    <AdminAlquiler />
+    <AdminEditarAlquiler />
   </React.StrictMode>
 )
