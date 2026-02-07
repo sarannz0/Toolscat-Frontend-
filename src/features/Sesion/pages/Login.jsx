@@ -16,37 +16,51 @@ function Login() {
             <div className="login_div_two">
               <div className="login_facebook">
               <img id='img_face' src="/public/icons/facebook.png" alt="" />              
-                <p> Continuar con Github</p>
+                <p> Continuar con Facebook</p>
               </div>
               <div className="login_google">
-                <img src="" alt="" />
-                <p> <img src="/public/icons/google.png" alt="" />Continuar con Google</p>                
+                <img src="/public/icons/google.png" alt="" />
+                <p> Continuar con Google</p>                
                 </div>
 
               <div className="ordivisor">
-                <span></span>
+                <span class="mini-span"></span>
                 <p>or</p>
-                <span></span>
+                <span class="mini-span"></span>
               </div>
               </div>
 
 
-            <div className="login_div_three">
-              <div className="login_email">
-                  <p>Enter work email</p>
-              </div>
-              <div className="login_pass">
-              <p>Password</p>                
+              <form className="login_div_three">
+                <div className="login_email">
+                  <input
+                    type="email"
+                    placeholder="Enter work email"
+                    required
+                  />
                 </div>
-                <button id='login'>Iniciar Sesión</button>
-            </div> 
+
+                <div className="login_pass">
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+
+                <button id="login" type="submit">
+                  Iniciar Sesión
+                </button>
+              </form>
+
             <div className="login_div_four">
                 <p>By continuing, you agree to the Terms of Service and Privacy Policy</p>
                 <p>Registrate en ToolsCat. Registrarse</p>
             </div>                       
         </div>
         <div className="login_derecho">
-
+                <img src="/public/Logo/Gato3.png" alt="" />
+                <h1>ToolsCat</h1>
         </div>
     </main>
   )

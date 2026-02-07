@@ -1,0 +1,54 @@
+.notfound_main{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Inter', sans-serif;
+}
+.notfound_center{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+width:320px;
+height: 380px;
+}
+.notfound_img{
+width: 100%;
+height: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left: 25px;
+}
+.notfound_img > img {
+width: 130px;
+}
+.notfound_number{
+width: 100%;
+height: 15%;
+font-family: 'Inter', sans-serif;
+font-size: 65px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.notfound_text{
+width: 100%;
+height: 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+}
+.notfound_button{
+width: 100%;
+height: 35px;
+background-color: black;
+border-radius: 6px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+}
