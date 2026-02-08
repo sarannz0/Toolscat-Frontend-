@@ -23,9 +23,14 @@ import AdminEditarDaño from './features/Admin/floatPages/AdminEditarDaño.jsx'
 
 /*Proveedor Components Flotantes*/ 
 
+
+/*Cliente Components Flotantes*/ 
+import ClientePagoExitoso from './features/Cliente/floatPages/ClientePagoExitoso.jsx'
+import ClienteAgregarTarjeta from './features/Cliente/floatPages/ClienteAgregarTarjeta.jsx'
+import ClientePago from './features/Cliente/floatPages/ClientePago.jsx'
+import ClienteDetalleProductoAlquiler from './features/Cliente/floatPages/ClienteDetalleProductoAlquiler.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AdminAlquiler />
-    <AdminEditarAlquiler />
+  <ClientePago/>
   </React.StrictMode>
 )

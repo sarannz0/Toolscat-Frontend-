@@ -1,0 +1,228 @@
+.agregar_tarjeta_overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.842);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .agregar_tarjeta_modal {
+    width: 305.55px;
+    background: #ffffff;
+    border-radius: 13px;
+    padding: 28px 24px 24px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Cerrar */
+  .agregar_tarjeta_close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #ffc9c9;
+    border: 4px solid #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #000;
+    line-height: 1;
+    transition: background 0.2s;
+  }
+  
+  .agregar_tarjeta_close:hover {
+    background: #ffb0b0;
+  }
+  
+  /* Header */
+  .agregar_tarjeta_header {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  
+  .agregar_tarjeta_title {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 1.2;
+    color: #000;
+  }
+  
+  /* Separador */
+  .agregar_tarjeta_separator {
+    border-top: 1px dashed #e5e7eb;
+    margin: 16px 0 20px;
+  }
+  
+  /* Contenedor de la tarjeta centrado */
+  .agregar_tarjeta_card_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Tarjeta visual */
+  .agregar_tarjeta_card {
+    width: 140px;
+    height: 88px;
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .agregar_tarjeta_card_circles {
+    display: flex;
+    gap: 2px;
+    align-self: flex-end;
+    margin-bottom: auto;
+  }
+  
+  .agregar_tarjeta_card_circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+  }
+  
+  .agregar_tarjeta_card_circle_red {
+    background: #eb001b;
+  }
+  
+  .agregar_tarjeta_card_circle_orange {
+    background: #f79e1b;
+    margin-left: -6px;
+  }
+  
+  /* Contenido de la tarjeta */
+  .agregar_tarjeta_card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: auto;
+  }
+  
+  .agregar_tarjeta_card_number {
+    font-size: 8px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .agregar_tarjeta_card_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .agregar_tarjeta_card_name {
+    font-size: 7px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    max-width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .agregar_tarjeta_card_details {
+    display: flex;
+    gap: 6px;
+    font-size: 6px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .agregar_tarjeta_card_date,
+  .agregar_tarjeta_card_cvv {
+    font-family: 'Courier New', monospace;
+  }
+  
+  /* Formulario */
+  .agregar_tarjeta_form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* Filas */
+  .agregar_tarjeta_row_single {
+    display: flex;
+    width: 100%;
+  }
+  
+  .agregar_tarjeta_row_double {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  /* Inputs */
+  .agregar_tarjeta_input {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 0 12px;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .agregar_tarjeta_input::placeholder {
+    color: #9ca3af;
+  }
+  
+  .agregar_tarjeta_input:focus {
+    border-color: #000;
+  }
+  
+  .agregar_tarjeta_input_half {
+    flex: 1;
+  }
+  
+  /* Acciones */
+  .agregar_tarjeta_actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  
+  .agregar_tarjeta_action_btn {
+    width: 100%;
+    height: 28.81px;
+    border-radius: 6px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .agregar_tarjeta_action_btn:hover {
+    background: #2a2a2a;
+  }
+  
