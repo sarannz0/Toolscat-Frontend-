@@ -38,8 +38,11 @@ import ClientePago from './features/Cliente/floatPages/ClientePago.jsx'
 import ClienteDetalleProductoAlquiler from './features/Cliente/floatPages/ClienteDetalleProductoAlquiler.jsx'
 
 
+/*Dashboards admin*/
+import AdminEstadisticas from './features/Admin/pages/dash_estadisticas/AdminEstadisticas.jsx'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <DashboardBase />
+ <DashboardBase />
   </React.StrictMode>
 )
