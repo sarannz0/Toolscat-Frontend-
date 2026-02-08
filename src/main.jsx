@@ -29,7 +29,7 @@ import ProveedorEditarDanio from './features/Proveedor/floatPages/ProveedorEdita
 import ProveedorAlquiler from './features/Proveedor/floatPages/ProveedorAlquiler.jsx'
 
 /*Proveedor Components Flotantes*/ 
-import DashboardBase from './features/DashboardBase/Dashbase.jsx'
+import Db from './features/DashboardBase/DashboardBase.jsx'
 
 /*Cliente Components Flotantes*/ 
 import ClientePagoExitoso from './features/Cliente/floatPages/ClientePagoExitoso.jsx'
@@ -39,10 +39,10 @@ import ClienteDetalleProductoAlquiler from './features/Cliente/floatPages/Client
 
 
 /*Dashboards admin*/
-import AdminEstadisticas from './features/Admin/pages/dash_estadisticas/AdminEstadisticas.jsx'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
- <DashboardBase />
+    <Db />
   </React.StrictMode>
 )

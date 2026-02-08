@@ -1,4 +1,4 @@
-import styles from "../DashboardBase/DashBase.module.css";
+import styles from "../DashboardBase/DashboardBase.module.css";
 
 function DashboardBase() {
   return (
@@ -55,6 +55,13 @@ function DashboardBase() {
           </div>
 
           <div className={styles.RealCanva}>
+
+
+
+
+              {/* Renderizado Pc */}
+
+            
             <div className={styles.welcome_card}>
               <div className={styles.welcome_top}>
                 <div className={styles.welcome_btn}>☰</div>
@@ -66,6 +73,9 @@ function DashboardBase() {
                 <p>Stiven Blanco</p>
                 <span className={styles.welcome_role}>Admin</span>
               </div>
+              <div className={styles.container_smartphones}>
+                    <h1>hola soy de cel</h1>
+                </div> 
             </div>
           </div>
         </div>
