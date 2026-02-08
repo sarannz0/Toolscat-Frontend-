@@ -51,7 +51,7 @@
 /* ============================================
    ESTILOS PARA ESCRITORIO (1400px+)
    ============================================ */
-@media (min-width: 1400px) {
+@media (min-width: 800px) {
     .dashbase_fondo {
         width: 100%;
         height: 100vh;
@@ -260,7 +260,7 @@
 /* ============================================
    ESTILOS PARA MÓVIL (768px y menos)
    ============================================ */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .dashbase_fondo {
                 font-family: 'Inter', sans-serif;
         padding: 0px;
