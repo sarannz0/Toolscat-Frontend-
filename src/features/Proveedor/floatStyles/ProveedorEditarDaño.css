@@ -1,0 +1,145 @@
+.proveedor_editdanio_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.842);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.proveedor_editdanio_modal {
+  width: 305.55px;
+  background: #ffffff;
+  border-radius: 13px;
+  padding: 28px 24px 24px;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Cerrar */
+.proveedor_editdanio_close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f8cfcf;
+  border: 4px solid #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Header */
+.proveedor_editdanio_header {
+  text-align: center;
+}
+
+.proveedor_editdanio_title {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.proveedor_editdanio_id {
+  font-size: 8px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+/* Separador */
+.proveedor_editdanio_separator {
+  border-top: 1px dashed #e5e7eb;
+  margin: 20px 0;
+}
+
+/* Info */
+.proveedor_editdanio_info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.proveedor_editdanio_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.proveedor_editdanio_label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+}
+
+.proveedor_editdanio_text {
+  font-size: 10px;
+  color: #9ca3af;
+  text-align: right;
+}
+
+/* Textarea */
+.proveedor_editdanio_textarea {
+  width: 100%;
+  height: 70px;
+  resize: none;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 8px;
+  font-size: 10px;
+  outline: none;
+}
+
+/* Acciones */
+.proveedor_editdanio_actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.proveedor_editdanio_toggle {
+  display: flex;
+  gap: 10px;
+}
+
+.proveedor_editdanio_toggle_btn {
+  flex: 1;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proveedor_editdanio_toggle_btn.active {
+  background: #000;
+  color: #fff;
+  border-color: #000;    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proveedor_editdanio_action_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  height: 28.81px;
+  border-radius: 6px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -7,7 +7,7 @@ import Cargador from './features/Cargador/pages/Cargador.jsx'
 import Login from './features/Sesion/pages/Login.jsx'
 import Register from './features/Sesion/pages/Register.jsx'
 
-/*Admin Components Errores*/ 
+/*Components Errores*/ 
 import Notallow from './features/Errors/pages/NotAllow.jsx'
 import Notfound from './features/Errors/pages/Notfound.jsx'
 
@@ -22,10 +22,17 @@ import AdminEditarAlquiler from './features/Admin/floatPages/AdminEditarAlquiler
 import AdminEditarDaño from './features/Admin/floatPages/AdminEditarDaño.jsx'
 
 /*Proveedor Components Flotantes*/ 
+import ProveedorAddTool from './features/Proveedor/floatPages/ProveedorAgregarHerramienta.jsx'
+import ProveedorEditarHerramienta from './features/Proveedor/floatPages/ProveedorEditarHerramienta.jsx'
+import ProveedorEditarDanio from './features/Proveedor/floatPages/ProveedorEditarDaño.jsx'
+import ProveedorAlquiler from './features/Proveedor/floatPages/ProveedorAlquiler.jsx'
+
+/*Proveedor Components Flotantes*/ 
+import DashboardBase from './features/DashboardBase/Dashbase.jsx'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AdminAlquiler />
-    <AdminEditarAlquiler />
+    <DashboardBase />
   </React.StrictMode>
 )
