@@ -28,11 +28,28 @@ import ProveedorEditarDanio from './features/Proveedor/floatPages/ProveedorEdita
 import ProveedorAlquiler from './features/Proveedor/floatPages/ProveedorAlquiler.jsx'
 
 /*Proveedor Components Flotantes*/ 
+import ProveedorAddTool from './features/Proveedor/floatPages/ProveedorAgregarHerramienta.jsx'
+import ProveedorEditarHerramienta from './features/Proveedor/floatPages/ProveedorEditarHerramienta.jsx'
+import ProveedorEditarDanio from './features/Proveedor/floatPages/ProveedorEditarDaño.jsx'
+import ProveedorAlquiler from './features/Proveedor/floatPages/ProveedorAlquiler.jsx'
+
+/*Proveedor Components Flotantes*/ 
 import DashboardBase from './features/DashboardBase/Dashbase.jsx'
 
+/*Cliente Components Flotantes*/ 
+import ClientePagoExitoso from './features/Cliente/floatPages/ClientePagoExitoso.jsx'
+import ClienteAgregarTarjeta from './features/Cliente/floatPages/ClienteAgregarTarjeta.jsx'
+import ClientePago from './features/Cliente/floatPages/ClientePago.jsx'
+import ClienteDetalleProductoAlquiler from './features/Cliente/floatPages/ClienteDetalleProductoAlquiler.jsx'
+
+/*Cliente Components Flotantes*/ 
+import ClientePagoExitoso from './features/Cliente/floatPages/ClientePagoExitoso.jsx'
+import ClienteAgregarTarjeta from './features/Cliente/floatPages/ClienteAgregarTarjeta.jsx'
+import ClientePago from './features/Cliente/floatPages/ClientePago.jsx'
+import ClienteDetalleProductoAlquiler from './features/Cliente/floatPages/ClienteDetalleProductoAlquiler.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <DashboardBase />
+
   </React.StrictMode>
 )

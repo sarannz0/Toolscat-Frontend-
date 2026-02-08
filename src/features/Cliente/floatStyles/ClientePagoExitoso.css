@@ -1,0 +1,114 @@
+.cliente_pago_exitoso_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.842);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.cliente_pago_exitoso_modal {
+  width: 305.55px;
+  background: #ffffff;
+  border-radius: 13px;
+  padding: 28px 24px 24px;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Cerrar */
+.cliente_pago_exitoso_close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffc9c9;
+  border: 4px solid #fff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #000;
+  line-height: 1;
+  transition: background 0.2s;
+}
+
+.cliente_pago_exitoso_close:hover {
+  background: #ffb0b0;
+}
+
+/* Header */
+.cliente_pago_exitoso_header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cliente_pago_exitoso_title {
+  font-size: 29px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  margin: 0;
+  color: #000;
+}
+
+/* Contenedor del ícono */
+.cliente_pago_exitoso_icon_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+
+
+/* Ícono PNG */
+.cliente_pago_exitoso_icon {
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(1px 7px 2px rgba(0, 0, 0, 0.171))opacity(0.8);
+}
+
+/* Texto de éxito */
+.pago_exitoso_text {
+  font-size: 12px;
+  text-align: center;
+  margin: 24px 0 32px;
+  line-height: 1.6;
+  color: #000;
+  font-weight: 400;
+}
+
+/* Acciones */
+.cliente_pago_exitoso_actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cliente_pago_exitoso_action_btn {
+  width: 100%;
+  height: 28.81px;
+  border-radius: 6px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  letter-spacing: 0.3px;
+}
+
+.cliente_pago_exitoso_action_btn:hover {
+  background: #2a2a2a;
+}

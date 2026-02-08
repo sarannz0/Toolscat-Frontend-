@@ -1,0 +1,176 @@
+.detalle_producto_alquiler_overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.842);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .detalle_producto_alquiler_modal {
+    width: 305.55px;
+    background: #ffffff;
+    border-radius: 13px;
+    padding: 28px 24px 24px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Cerrar */
+  .detalle_producto_alquiler_close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #ffc9c9;
+    border: 4px solid #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #000;
+    line-height: 1;
+    transition: background 0.2s;
+  }
+  
+  .detalle_producto_alquiler_close:hover {
+    background: #ffb0b0;
+  }
+  
+  /* Header */
+  .detalle_producto_alquiler_header {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  
+  .detalle_producto_alquiler_title {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 0 0 8px 0;
+    color: #000;
+  }
+  
+  /* Badge de disponibilidad */
+  .detalle_producto_alquiler_badge {
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  
+  .detalle_producto_alquiler_badge_disponible {
+    background: #d1fae5;
+    color: #065f46;
+  }
+  
+  .detalle_producto_alquiler_badge_mantenimiento {
+    background: #fef3c7;
+    color: #92400e;
+  }
+  
+  .detalle_producto_alquiler_badge_no_disponible {
+    background: #fee2e2;
+    color: #991b1b;
+  }
+
+  
+  /* Descripción */
+  .detalle_producto_alquiler_descripcion {
+    text-align: center;
+    font-size: 10px;
+    color: #6b7280;
+    line-height: 1.5;
+    margin: 12px 0 16px;
+  }
+  
+  /* Contenedor de imagen */
+  .detalle_producto_alquiler_imagen_container {
+    width: 100%;
+    height: 120px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  
+  .detalle_producto_alquiler_imagen {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .detalle_producto_alquiler_imagen_placeholder {
+    width: 100%;
+    height: 100%;
+    background: #e5e7eb;
+    border-radius: 8px;
+  }
+  
+  /* Info del alquiler */
+  .detalle_producto_alquiler_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .detalle_producto_alquiler_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .detalle_producto_alquiler_label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .detalle_producto_alquiler_value {
+    font-size: 10px;
+    color: #6b7280;
+    font-weight: 500;
+  }
+  
+  /* Separador */
+  .detalle_producto_alquiler_separator {
+    border-top: 1px dashed #e5e7eb;
+    margin: 16px 0;
+  }
+  
+  /* Sección de total */
+  .detalle_producto_alquiler_total_section {
+    text-align: center;
+  }
+  
+  .detalle_producto_alquiler_total_title {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+    color: #000;
+  }
+  
+  .detalle_producto_alquiler_total_precio {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 0 4px 0;
+    color: #000;
+  }
+  
+  .detalle_producto_alquiler_id {
+    font-size: 8px;
+    color: #9ca3af;
+    margin: 0 0 16px 0;
+    letter-spacing: 0.5px;
+  }
+  
+  

@@ -1,0 +1,111 @@
+.cliente_pago_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.842);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.cliente_pago_modal {
+  width: 305.55px;
+  background: #ffffff;
+  border-radius: 13px;
+  padding: 28px 24px 24px;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Cerrar */
+.cliente_pago_close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f8cfcf;
+  border: 4px solid #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Header */
+.cliente_pago_header {
+  text-align: center;
+}
+
+.cliente_pago_title {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.cliente_pago_id {
+  font-size: 8px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+/* Separador */
+.cliente_pago_separator {
+  border-top: 1px dashed #e5e7eb;
+  margin: 20px 0;
+}
+
+/* Info */
+.cliente_pago_info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cliente_pago_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cliente_pago_label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+}
+
+.cliente_pago_value {
+  font-size: 10px;
+  color: #9ca3af;
+}
+
+/* Total */
+.cliente_pago_total {
+  font-size: 10px;
+  font-weight: 800;
+}
+
+/* Acciones */
+.cliente_pago_actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cliente_pago_action_btn {
+  width: 100%;
+  height: 28.81px;
+  border-radius: 6px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
